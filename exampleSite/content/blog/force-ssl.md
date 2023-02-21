@@ -1,4 +1,4 @@
----
+<!-- ---
 title: 'Forcing Visits to use SSL'
 date: Thu, 01 Jan 2009 14:09:10 +0000
 draft: false
@@ -56,4 +56,4 @@ This method cn get a little hairier if your using aliases or redirects on top of
 ```
 RewriteCond %{HTTPS} !=on
 RewriteRule ^/admin/(.*)$ https://%{SERVER_NAME}/admin/$1 \[R,L\]
-```
+``` -->
